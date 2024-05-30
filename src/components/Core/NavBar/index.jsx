@@ -7,7 +7,7 @@ import {v4 as uuid4} from 'uuid'
 function NavBar(prosp) {
     const objectItens = [
         {to: '/', nome: 'Home'},
-        {to: '/project', nome: 'Projetos'},
+        {to: '/myProject', nome: 'Projetos'},
         {to: '/company', nome: 'Empresa'},
         {to: '/contact', nome: 'Contato'}
         

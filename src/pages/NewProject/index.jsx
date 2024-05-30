@@ -20,7 +20,7 @@ export default function NewProject() {
         })
             .then((resp) => resp.json())
                 .then(() => {
-                    navigate('/projects')
+                    navigate('/myProject')
                 })
     }
 
